@@ -1,0 +1,33 @@
+.container-ingresso {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.305);
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.container-ingresso a {
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.container-ingresso a:hover {
+    color: greenyellow;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+}
+
+.container-ingresso img {
+    width: 20%;
+}
+
+@media screen and (max-width: 664px) {
+    .container-ingresso {
+        flex-direction: column;
+    }
+}

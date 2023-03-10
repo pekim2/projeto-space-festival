@@ -1,0 +1,70 @@
+.Contador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.astronautas {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 70%;
+-webkit-animation: float 4s ease-in-out infinite;
+animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+0% {
+  transform: translatey(0px);
+}
+50% {
+  transform: translatey(-15px);
+}
+100% {
+  transform: translatey(0px);
+}
+}
+
+.container-counter {
+  padding: 2em;
+  border-radius: 1rem;
+}
+
+.countdown-container {
+  transform: rotateX(2deg) rotateY(6deg) rotateZ(0deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .astronautas {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Contador {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      padding: 20px 0px 0px 0px;
+  }
+
+  .loader::after {
+    background: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .astronautas {
+    display: none;
+  }
+}

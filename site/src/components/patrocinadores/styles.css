@@ -1,0 +1,25 @@
+.box-patrocinadores h3 {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.patrocinadores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.pat-1, .pat-2, .pat-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 70px;
+}
+
+.pat-1 img, .pat-2 img, .pat-3 img {
+    width: 50%;
+}

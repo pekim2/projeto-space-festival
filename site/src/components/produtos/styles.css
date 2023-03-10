@@ -1,0 +1,101 @@
+.container-produtos {
+    background: url(../../assets/background-4.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.container-items img {
+    border: 1px solid white !important;
+}
+
+.button-buy {
+    background-color: white !important;
+    transition: all ease-in-out 0.5s !important;
+    color: black!important;
+}
+
+.button-buy:hover {
+    color: white !important;
+    background-color: rgba(0, 0, 255, 0.46) !important;
+}
+
+.card-produtos {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.345) !important;
+
+}
+@media screen and (max-width: 800px) {
+    .container-items {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container-items {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .container-bone {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container-bone {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .container-moletom {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container-moletom {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}

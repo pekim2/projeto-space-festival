@@ -1,0 +1,51 @@
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.576);
+    border-radius: 50px 50px 0px 0px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.box-2 {
+    display: flex;
+    width: 100%;
+    color: white;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.576);
+}
+
+.box-2 p {
+    cursor: pointer;
+}
+
+.footer li {
+    line-height: 40px;
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+ul {
+    padding-top: 50px;
+}
+
+.termos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: gray;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.termos p {
+    cursor: pointer;
+}

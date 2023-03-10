@@ -1,0 +1,32 @@
+.banner { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fixed-background {
+    background-image: url(https://www.imagemhost.com.br/images/2023/02/24/background.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner img {
+    border-radius: 20px;
+    width: 50%;
+    margin: 20px 0px 20px 0px;
+}
+
+@media screen and (max-width: 479px) {
+    .banner img{
+        width: 90%;
+        height: 70vh;
+    }
+
+    .fixed-background {
+        background-position: 10% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}

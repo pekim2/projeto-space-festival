@@ -1,0 +1,5 @@
+.fundo-fest {
+    background: url('../img/stars.png');
+    background-attachment: fixed;
+    background-size: cover; 
+}

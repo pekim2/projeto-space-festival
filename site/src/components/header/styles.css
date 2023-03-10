@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    font-family: 'Secular One', sans-serif;
+}
+
+.container-navbar {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.active.nav-link {
+    color: pink !important;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.nav-link:hover {
+    color: pink !important;
+}
+
+.navbar-toggler-icon {
+    background-color: pink !important;
+}
+
+.container-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+}
+
+.direcoes a{
+    color: whitesmoke;
+}
+
+.basic-nav-dropdown {
+    transition: ease-in-out 3s;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: rgba(46, 53, 53, 0.877);
+}
+
+.produtos:hover .rocket{
+    opacity: 1;
+}
+
+.rocket {
+    opacity: 0;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+button {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+button a {
+    text-decoration: none;
+}
+
+button a:hover {
+    color: pink !important;
+}
+
+.dropdown-menu {
+    background: linear-gradient( 20deg,rgba(250, 250, 250, 0.397), rgba (250, 250, 250, 0.397)) !important;
+}
+
+.box-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.box-login img {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translatey(0px);
+    -webkit-animation: float 4s ease-in-out infinite;
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-15px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
+.text-login p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+@media screen and (max-width: 992px) {
+    .box-login {
+        display: none;
+    }
+
+    .direcoes {
+        float: left;
+    }
+}
